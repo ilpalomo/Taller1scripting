@@ -45,3 +45,40 @@
 ![image](https://github.com/ilpalomo/Taller1scripting/assets/113053206/2de259e9-2121-4305-84cd-adfb684c2f15)
 ### Descripción breve de lo realizado
 Gracias a la información proporcionada en "https://www.stationx.net/unix-commands-cheat-sheet/" se lograron realizar con éxito algunos de los comandos en el desafío, sin embargo algunos de estos eran bastante complejos y se optó por leer las posibles soluciones que brindaba la página; esto se analizaba y se entendió que eran una serie de combinaciones de comandos previamente aprendidos pero con cierta dificultad en la escritura de estos mismos.
+## Punto 4 lista de comandos
+- git clone https://gitexercises.fracz.com/git/exercises.git
+cd exercises
+git config user.name "Pamplona"
+git config user.email "ilpalomon@gmail.com"
+./configure.sh
+git start
+
+- git start master
+git verify
+
+- git add A.txt
+git commit -m "add one file"
+git verify 
+
+- git reset HEAD A.txt
+git commit -m "commit A.txt"
+git verify
+
+- nano .gitignore
+*.exe
+*.o
+*.jar
+libraries/
+git add .gitignore
+git commit -m "ignore the"
+git verify
+
+- git checkout chase-branch
+git merge escaped
+git verify
+
+
+![image](https://github.com/ilpalomo/Taller1scripting/assets/113053206/b212d4f2-c8bf-48cd-9359-98f99709d6c8)
+
+### Descripción breve de lo realizado
+Se usó el manual "https://git-scm.com" para entender mejor los comandos y alternativas para resolver los ejercicios, la dificultad de estos es bastante alta por lo que no se logró completar el ejercicio de manera satisfactoria.
